@@ -1,0 +1,28 @@
+{
+  "name": "gio-scripts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GiancarlosIO/gio-scripts.git"
+  },
+  "keywords": [
+    "webpack",
+    "babel",
+    "react"
+  ],
+  "author": "Giancarlos Isasi <giancarlos.isasi@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/GiancarlosIO/gio-scripts/issues"
+  },
+  "homepage": "https://github.com/GiancarlosIO/gio-scripts#readme",
+  "dependencies": {
+    "webpack": "4.16.5",
+    "webpack-dev-server": "3.1.5"
+  }
+}
