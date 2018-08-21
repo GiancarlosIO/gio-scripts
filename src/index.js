@@ -1,1 +1,3 @@
-console.log('hi');
+module.exports = {
+  log: () => console.log('Hello'),
+};
