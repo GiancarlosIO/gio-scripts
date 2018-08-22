@@ -7,5 +7,6 @@ module.exports = {
     console.log('hello 2');
     return 'hello 2';
   },
+  getLog3: () => 'logger3',
   beta: () => console.log('beta'),
 };
