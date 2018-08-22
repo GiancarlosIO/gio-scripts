@@ -1,14 +1,17 @@
 {
   "name": "gio-scripts",
-  "version": "1.2.0-beta.0",
+  "version": "0.0.0-development",
   "description": "",
   "main": "src/index.js",
   "scripts": {
-    "test": "test"
+    "test": "mocha src/**/*.test.js",
+    "test:watch": "mocha src/**/*.test.js -w",
+    "travis-deploy-once": "travis-deploy-once",
+    "semantic-release": "semantic-release"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/GiancarlosIO/gio-scripts.git"
+    "url": "https://github.com/GiancarlosIO/gio-scripts.git"
   },
   "keywords": [
     "webpack",
@@ -24,5 +27,12 @@
   "dependencies": {
     "webpack": "4.16.5",
     "webpack-dev-server": "3.1.5"
+  },
+  "devDependencies": {
+    "chai": "4.1.2",
+    "mocha": "5.2.0",
+    "semantic-release-cli": "4.0.7",
+    "travis-deploy-once": "^5.0.2",
+    "semantic-release": "^15.9.9"
   }
 }
